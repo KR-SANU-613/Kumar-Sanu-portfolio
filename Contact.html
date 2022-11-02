@@ -5,8 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
+    <link rel="stylesheet" href="Contact.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   
  </head>
- <body class="bg">
-    <img src="\images\bgimage.jpg" alt="">
+ <body>
+   <div class="background-image">
+      <div class="color-overlay"> </div>
+      <div class="icon"><i id="i1" class="fa fa-map-marker" aria-hidden="true"></i></div>
+      <div class="icon"><i id="i2" class="fa fa-phone" aria-hidden="true"></i></div>
+      <div class="icon"><i id="i3" class="fa fa-envelope-o" aria-hidden="true"></i></div>
+      <a href="index.html" ><button class="btnHome" >Back</button></a>
+      <h1 class="txt1">Conatact Me</h1>
+      <p class="txt2">Feel free to contactc me </p>
+      <p class="ad">Address</p>
+      <p class="ad2">Patna, Bihar, India</p>
+      <p class="ad3">Phone</p>
+      <p class="ad4">Whatsapp No: 9431274129</p>
+      <p class="ad5">Email</p>
+      <p class="ad6">sanukr613@gmail.com</p>
+ </div>
+ <div class="box">
+   <form action="ContactHandler.php" method="post" id="contact-form" >
+      <input type="text" name="name" class="form-control" placeholder="Your Name" required><br>
+      <input type="email" name="email" class="form-control" placeholder="Your Email" required><br>
+      <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+      <input type="submit" class="form-control submit" value="SEND MESSAGE" >
+
+   </form>
+      </div>
+   </div>
+   <div class="footer">
+      <img class="img7" src="images\img1.png" alt="">
+      <h4 class="text5">Address Contact Follow</h4>
+      <p class="da">Patna, Bihar<br>India</p>
+      <p class="da2">Email:sanukr613@gmail.com<br>Whatsapp No:9431274129</p>
+      <a href="https://www.linkedin.com/in/kumar-sanu-b9b27b244/" target="_blank"><img class="img9"  src="images\img7.png" alt=""></a> 
+                          </div>
+
+   
  </body>
  </html>
