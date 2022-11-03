@@ -39,6 +39,7 @@
     padding-left: 13px;
     padding-right: 13px;
     padding-bottom: 5px;
+     filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));
     border-color: hsl(219, 100%, 52%);
     border-width: 2px;
 }
@@ -73,6 +74,7 @@
       background-color: white;
     font-weight: 100;
     border-radius: 20px;
+     filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));
     padding-top: 5px;
     padding-left: 13px;
     padding-right: 13px;
@@ -93,6 +95,7 @@
     padding-top: 5px;
     padding-left: 13px;
     padding-right: 13px;
+     filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));
     padding-bottom: 5px;
     border-color: hsl(219, 100%, 52%);
     border-width: 2px;
