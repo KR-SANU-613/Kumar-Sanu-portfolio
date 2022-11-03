@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+}
+.background-image{
+    background-image: url('bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.avtar{
+    width: 350px;
+    filter: drop-shadow(0px 0px 10px rgb(255, 196, 4));
+
+}
+.davtar{
+    position: absolute;
+    top: 100px;
+    left: 800px;
+}
+.hii{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: white;
+    position:absolute;
+    top: 100px;
+    left:170px;
+    filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+}
+.iam{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 180px;
+    left: 170px;
+    filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+}
+#name{
+    color: yellow;
+    filter: drop-shadow(0px 0px 13px yellow);
+}
+#kumar{
+    filter: drop-shadow(0px 0px 13px rgb(255, 255, 255));
+}
+.myjob{
+    color: white;
+    position: absolute;
+    top: 270px;
+    left: 170px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+.gd{
+    color: orange;
+    filter: drop-shadow(0px 0px 13px orange);
+}
+.vd{
+    color: white;
+    position: absolute;
+    top: 310px;
+    left: 170px;
+    color: orange;
+    filter: drop-shadow(0px 0px 13px orange);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+
+.btnFollow{
+    position: absolute;
+    top: 380px;
+    left: 185px;
+    background-color: aqua;
+    width: 150px;
+
+   color: white;
+   background-color: rgb(9, 95, 255);
+   filter: drop-shadow(5px 0px 10px rgb(9, 95, 255));
+    padding-top: 8px;
+    padding-bottom: 6px;
+    border-radius: 100px;
+    font-size: 25px;
+    border-color: white;
+}
+.btnFollow:hover{
+    background-color: rgb(202, 202, 202);
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: black;
+    filter: drop-shadow(5px 0px 10px #fffffff6);
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.arrow{
+    width: 50px;
+}
+.darrow{
+    position: absolute;
+    top: 385px;
+    left: 355px;
+}
+.lin{
+    width: 50px;
+   
+ 
+}
+.in{
+    position: absolute;
+    top: 375px;
+    left: 425px;
+    background: white;
+    border-radius: 100%;
+    padding-bottom: -10px;
+    text-align: center;
+    line-height: 10px;
+}
+
+.in:hover{
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+.btnBack{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: aqua;
+    width: 100px;
+
+   color: white;
+   background-color: rgb(9, 95, 255);
+   filter: drop-shadow(5px 0px 10px rgb(9, 95, 255));
+    padding-top: 8px;
+    padding-bottom: 6px;
+    border-radius: 100px;
+    font-size: 25px;
+    border-color: white;
+}
+.btnBack:hover{
+    background-color: rgb(202, 202, 202);
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: black;
+    filter: drop-shadow(5px 0px 10px #fffffff6);
+    padding-right: 5px;
+    padding-left: 5px;
+}
