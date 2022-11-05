@@ -39,8 +39,8 @@
     padding-left: 13px;
     padding-right: 13px;
     padding-bottom: 5px;
-     filter: drop-shadow(6px 6px 12px rgb(0, 0, 0));
     border-color: hsl(219, 100%, 52%);
+    filter: drop-shadow(6px 6px 12px rgb(0, 0, 0));
     border-width: 2px;
 }
 .Home:hover{
@@ -74,10 +74,10 @@
       background-color: white;
     font-weight: 100;
     border-radius: 20px;
-   filter: drop-shadow(6px 6px 12px rgb(0, 0, 0));
     padding-top: 5px;
     padding-left: 13px;
     padding-right: 13px;
+    filter: drop-shadow(6px 6px 12px rgb(0, 0, 0));
     padding-bottom: 5px;
     border-color: hsl(219, 100%, 52%);
     border-width: 2px;
@@ -88,6 +88,7 @@
     font-family: Verdana;
     font-size: 25px;
   left: 960px;
+  filter: drop-shadow(6px 6px 12px rgb(0, 0, 0));
     font-weight: 100;
     background-color: white;
     font-weight: 100;
@@ -95,7 +96,6 @@
     padding-top: 5px;
     padding-left: 13px;
     padding-right: 13px;
-  filter: drop-shadow(6px 6px 12px rgb(0, 0, 0));
     padding-bottom: 5px;
     border-color: hsl(219, 100%, 52%);
     border-width: 2px;
@@ -170,6 +170,29 @@
     filter: drop-shadow(5px 0px 10px #272727f6);
     
 }
+.btn2{
+    background-color: rgb(9, 95, 255);
+    font-size: 18px;
+    padding: 15px 22px 15px 22px;
+    border-radius: 25px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: white;
+    border: 0px;
+    float: right;
+    position: relative;
+    top: 935px;
+   right: 875px;
+    filter: drop-shadow(5px 0px 10px rgb(9, 95, 255));
+}
+
+.btn2:hover{
+    background-color:#272727f6;
+    transform: scale(1.1);
+    transition: 0.5s;
+    filter: drop-shadow(5px 0px 10px #272727f6);
+    
+}
 .img2{
     width: 745px;
     position: relative;
@@ -196,9 +219,10 @@
     text-align:right;
     font-size: 60px;
     position: relative;
+    top: 1000px;
     right: 150px;
     float: left;
-    padding-top: 50px;
+   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -218,7 +242,7 @@
     font-size: 15px;
     position: relative;
     right: 0px;
-    top: 270px;
+    top: 190px;
     color: rgba(39, 39, 39, 0.966);
     float: left;
     padding-top: 50px;
@@ -230,7 +254,7 @@
     float: right;
     position: relative;
     right: 45px;
-    bottom: 40px;
+   top: 30px;
     filter: drop-shadow(8px 8px 10px #272727f6);
 }
 
@@ -311,7 +335,7 @@
 
 
 .footer{
-    background-color:rgba(39, 39, 39, 0.966);
+    background-color:  rgba(39, 39, 39, 0.966);
     width: 100%;
     height: 300px;
     position: absolute;
