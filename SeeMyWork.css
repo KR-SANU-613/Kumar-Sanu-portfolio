@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ .starter{
+    height: 55px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    z-index: 1;
+    /* color: black; */
+    background-color: black;
+ }
+ .btnHome{
+    position: absolute;
+    right:1220px;
+    background-color: aqua;
+    width: 80px;
+   top: 5px;
+   color: white;
+   background-color: rgb(9, 95, 255);
+   filter: drop-shadow(5px 0px 10px rgb(9, 95, 255));
+    padding-top: 8px;
+    padding-bottom: 6px;
+    border-radius: 20px;
+    font-size: 20px;
+    border-color: white;
+}
+.btnHome:hover{
+    background-color: rgb(202, 202, 202);
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: black;
+    filter: drop-shadow(5px 0px 10px #fffffff6);
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.line1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#272727f6;
+    position: absolute;
+    top: 65px;
+    font-weight:bolder;
+    font-size: 40px;
+    left: 450px;
+}
+.special{
+    width: 1200px;
+    background-color:rgb(122, 122, 122);
+    height:505px;
+    position: absolute;
+   top: 150px;
+    left: 70px;
+    filter: drop-shadow(5px 8px 10px rgb(0, 0, 0));
+    border-radius: 20px;
+}
+.gdstock{
+    width: 450px;
+    position: relative;
+    top: 60px;
+    left: 60px;
+}
+.vdstock{
+  width: 500px;
+  position: relative;
+  top: 40px;
+  left: 185px;
+}
+.tt1{
+    font-size: 25px;
+    position: relative;
+    top: 525px;
+    left: 115px;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+}
+
+.tt2{
+    font-size: 25px;
+    position: relative;
+    top: 475px;
+    left: 715px;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+}
+.btngd{
+    width: 200px;
+    position: absolute;
+    top: 570px;
+    left: 265px;
+    color: white;
+    background-color: rgb(9, 95, 255);
+    filter: drop-shadow(5px 0px 10px rgb(9, 95, 255));
+     padding-top: 8px;
+     padding-bottom: 6px;
+     border-radius: 100px;
+     font-size: 35px;
+     border-color: white;
+}
+.btngd:hover{
+    background-color: rgb(202, 202, 202);
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: black;
+    filter: drop-shadow(5px 0px 10px #fffffff6);
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.btnvd{
+    width: 200px;
+    position: absolute;
+    top: 560px;
+    left: 865px;
+    color: white;
+    background-color: rgb(9, 95, 255);
+    filter: drop-shadow(5px 0px 10px rgb(9, 95, 255));
+     padding-top: 8px;
+     padding-bottom: 6px;
+     border-radius: 100px;
+     font-size: 35px;
+     border-color: white;
+}
+.btnvd:hover{
+    background-color: rgb(202, 202, 202);
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: black;
+    filter: drop-shadow(5px 0px 10px #fffffff6);
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color:  rgba(39, 39, 39, 0.966);
+    width:1400px;
+    height: 300px;
+   position: relative;
+   right: 100px;
+    top: 305px;
+}
+.img7{
+    width: 250px;
+    filter: drop-shadow(0px 0px 10px white);
+    position: relative;
+    top: 70px;
+    left: 100px;
+}
+
+.text5{
+    color: white;
+    word-spacing: 185px;
+    font-size: 21px;
+    position: relative;
+    bottom: 20px;
+    left: 450px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ad{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(201, 201, 201);
+    position: relative;
+    font-size: 14px;
+    left: 450px;
+}
+.ad2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(201, 201, 201);
+    position: relative;
+    font-size: 14px;
+    left: 735px;
+    bottom: 35px;
+}
+.img9{
+    width: 40px;
+    position: relative;
+    left: 1035px;
+    bottom: 75px;
+    filter: drop-shadow(0px 0px 10px white);
+}
+.img9:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
