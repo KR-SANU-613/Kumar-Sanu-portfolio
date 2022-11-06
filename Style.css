@@ -26,12 +26,12 @@
    position: absolute;
    top: 125px;
 }
-.Home{
+.MyWork{
     position: relative;
     top: 62px;
     font-family: Verdana;
     font-size: 25px;
-    left:900px;
+    left:800px;
     background-color: white;
     font-weight: 100;
     border-radius: 20px;
@@ -43,7 +43,7 @@
     filter: drop-shadow(6px 6px 12px rgb(0, 0, 0));
     border-width: 2px;
 }
-.Home:hover{
+.MyWork:hover{
    color: hsl(219, 100%, 52%);
    transform: scale(1.125);
     transition: 0.5s;;
@@ -69,7 +69,7 @@
     top: 62px;
     font-family: Verdana;
     font-size: 25px;
-    left:930px;
+    left:850px;
     font-weight: 100;
       background-color: white;
     font-weight: 100;
@@ -87,7 +87,7 @@
    top:62px;
     font-family: Verdana;
     font-size: 25px;
-  left: 960px;
+  left: 900px;
   filter: drop-shadow(6px 6px 12px rgb(0, 0, 0));
     font-weight: 100;
     background-color: white;
